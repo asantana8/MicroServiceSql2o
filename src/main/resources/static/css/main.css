@@ -1,0 +1,161 @@
+h1 {
+	color: red; 
+}
+
+.highlight {
+    padding: 9px 14px;
+    margin-bottom: 14px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+}
+figure {
+    margin: 0;
+}
+figure {
+    margin: 1em 40px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+figure {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+.highlight pre {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    word-break: normal;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.highlight pre code:first-child {
+    display: inline-block;
+    padding-right: 45px;
+}
+.highlight pre code {
+    font-size: inherit;
+    color: #333;
+}
+pre code {
+/*     padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0; */
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+code {
+/*     padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px; */
+}
+code, kbd, pre, samp {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+code, kbd, pre, samp {
+    font-family: monospace,monospace;
+    font-size: 1em;
+}
+
+.blockquote{
+	font-size: 14px;
+}
+
+.code{
+	font-family: monospace,monospace;
+    font-size: 1em;
+    color: gray;
+}
+
+.property {
+	color: #1777A9;
+}
+
+.value {
+	color: #8F4730;
+}
+
+.topic {
+	 font-size: 1.2em;
+}
+
+
+
+
+#DivRodape{
+    position: absolute;
+    top: auto;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+    background-color:#004085;
+}
+#DivLateral{
+    position:relative;
+    border-width:2px;
+    width:230px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-top:2%;
+    text-align: left;
+}
+#DivA{
+    position: relative;
+    border-width:2px;
+    width: 100px;
+    height: 100px;
+    left:0px;
+    background-color: white;
+    float: left;
+}
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}

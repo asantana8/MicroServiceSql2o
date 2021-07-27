@@ -1,2 +1,3 @@
-# MicroServiceSql2o
-Projeto de micro serviço com gestão de múltiplos SGBD (H2 | Oracle | PostgreeSql) e JPA com Sql2o
+# MicroServiceMicroOrm
+
+Projeto base utilizado na construção inicial de micro serviços baseado em Java com MicroORM sql2o (https://github.com/aaberg/sql2o).
